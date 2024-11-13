@@ -85,3 +85,36 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+/*order buttons*/
+.order__container{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.price__button{
+    width: 70px;
+    height: 50px;
+    border-style: none;
+    background-color: #EF2A39;
+    font-family: 'roboto';
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.order__button{
+    width: 130px;
+    height: 50px;
+    border-style: none;
+    background-color: #3C2F2F;
+    color: white;
+    font-family: 'roboto';
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
