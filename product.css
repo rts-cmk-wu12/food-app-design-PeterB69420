@@ -5,3 +5,28 @@
     display: flex;
     margin: 0 auto;
 }
+
+/*burger info*/
+.burger__information{
+    padding: 20px;
+}
+.burger__header{
+    font-family: 'roboto';
+    color: #3C2F2F;
+}
+
+.fa-star{
+    color: #FF9633;
+}
+
+.burger__rating{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'roboto';
+    color: #808080;
+}
+
+.burger-info__txt{
+    font-family: 'roboto';
+    color: #808080;
+}
