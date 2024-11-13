@@ -1,0 +1,174 @@
+/* header */
+
+.foodgo__home {
+    display: flex;
+}
+
+.foodgo__header {
+    padding: 10px;
+    font-size: 45px;
+    font-family: 'Lobster';
+    color: #3C2F2F;
+}
+
+.foodgo_txt {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'poppins';
+    color: #6A6A6A;
+}
+
+.foodgo__pfp {
+    padding: 10px;
+    margin-left: 200px;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+/* search bar */
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.search__bar {
+    width: 319px;
+    height: 40px;
+    outline: none;
+    border-style: none;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: #3C2F2F;
+    font-weight: bold;
+    position: absolute;
+    left: 50px;
+}
+
+
+.settings__button {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    background-color: #EF2A39;
+    border-radius: 10px;
+}
+
+.fa-sliders-h{
+    color: white;
+}
+
+/* burgers*/
+.burger__container {
+    margin: 0 auto;
+    width: 392px;
+    height: 481px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.burger__section {
+    width: 185px;
+    height: 225px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.burger__image {
+    width: 115px;
+    display: grid;
+    margin: 0 auto;
+}
+
+.burger-image__fc {
+    width: 115px;
+    display: grid;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.burger__header {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #3C2F2F;
+    padding: 5px;
+}
+
+.burger__txt {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #3C2F2F;
+    padding: 5px;
+}
+
+.burger__rating {
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.fa-star{
+    color: #FF9633;
+}
+
+/* footer*/
+
+.fa-plus{
+    color: white;
+}
+
+.footer__button {
+    display: grid;
+    margin: 0 auto;
+    width: 72px;
+    height: 72px;
+    border-style: none;
+    background-color: #EF2A39;
+    place-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button__span {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.footer__frontpage {
+    height: 90px;
+    margin-top: 20px;
+    background-color: #EF2A39;
+}
+
+.footer_-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    padding: 10px;
+}
+
+.fa-home{
+    color: white;
+}
+
+.fa-user{
+    color: white;
+}
+
+.fa-comment{
+    color: white;
+}
+
+.fa-heart{
+    color: white;
+}
